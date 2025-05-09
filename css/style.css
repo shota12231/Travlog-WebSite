@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+/* variables */
+:root {
+  --passiveTxtColor: #19182580;
+  --pinkTxtColor: #f85e9f;
+  --btnColor: #5d50c6;
+  --orangeNumColor: #ff5722;
+}
+/* border: 2px solid black; */
+body {
+  font-family: "Roboto Serif", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  a {
+    text-decoration: none;
+  }
+}
+/* navigation styles */
+nav {
+  border: 2px solid black;
+  height: 100px; /* moashore da padding gaukete */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  border: 2px solid black;
+  width: 428px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#active {
+  color: black; /*ეს რადგან მომხმარებელი მიხვდეს, რომელ გვერდზეცაა*/
+}
+.nav-items a {
+  color: var(--passiveTxtColor);
+  transition: 0.2s all ease-out;
+}
+.nav-items a:hover {
+  color: black;
+  transition: 0.2s all ease-out;
+}
+.nav-logo {
+  width: 142px;
+}
+.registration {
+  border: 2px solid black;
+  display: flex;
+  width: 235px; /*an esec moxseni*/
+  height: 49px; /*waushale da paddingi*/
+}
+.signUp {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: var(--btnColor);
+  border-radius: 100px;
+  padding: 16px 32px;
+  transition: 0.3s all ease;
+}
+.logIn {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #ffffff;
+  border-radius: 100px;
+  padding: 16px 32px;
+  transition: 0.2s all ease;
+}
+.signUp:hover {
+  background-color: #5e50c6b3;
+  transition: 0.3s all ease;
+}
+.logIn:hover {
+  color: var(--btnColor);
+  transition: 0.2s all ease;
+}
+/* header styles */
+header {
+  width: 87%;
+  margin: 0 auto;
+  border: 2px solid black;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-div {
+  /*esec shegidzlia gaadido*/
+  border: 2px solid black;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-div-info {
+  /*es shegidzlia gaadido*/
+  border: 2px solid black;  /* keyframebi dgauwre*/
+  width: 412px;
+  height: 480px;
+}
+.header-div-img {
+  border: 2px solid black; /* keyframebi dgauwre*/
+  width: 772px;
+}
+.hd-img {
+  max-width: 100%;
+}
+h1 {
+  font-weight: 300;
+  font-size: 69px;
+  line-height: 120%;
+}
+.pink-h1 {
+  color: var(--pinkTxtColor);
+}
+.hd-info-p {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--passiveTxtColor);
+  line-height: 160%;
+}
+.get-started {
+  background-color: var(--btnColor);
+  border-radius: 100px;
+  padding: 16px 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  border: none;
+  transition: 0.2s all ease;
+  box-shadow: 
+    0px 0px 0px rgba(0, 0, 0, 0.10),
+    0px 5px 11px rgba(0, 0, 0, 0.10);
+}
+.get-started:hover {
+  background-color: #5e50c6b3;
+  transition: 0.2s all ease;
+}
+.watch-demo {
+  border: 1px solid #eeeeee;
+  border-radius: 100px;
+  display: flex;
+  width: 160px;
+  height: 56px;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.2s all ease;
+}
+.watch-demo:hover {
+  background-color: #5e50c681;
+  transition: 0.2s all ease;
+}
+.playbutton {
+  width: 30px;
+}
+.watch-demo p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+.hd-btns-div {
+  border: 2px solid black;
+  display: flex;
+  width: 329px;
+  gap: 20px;
+}
+
