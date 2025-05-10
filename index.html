@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" href="./assets/logo-icon.svg" />
     <title>Travlog | home</title>
   </head>
   <body>
@@ -27,6 +28,8 @@
           <a class="logIn" href="#">Log In</a>
           <a class="signUp" href="#">Sign Up</a>
         </div>
+        <i id="burger-menu" class="fa fa-bars"></i>
+        <!--ეს ჯერ იქნება დამალული და რესპონსივის დროს გამოჩნდება-->
       </nav>
       <div class="header-div">
         <div class="header-div-info">
@@ -62,17 +65,9 @@
             <h4>Top Destination</h4>
             <h2>Explore top destination</h2>
           </div>
-          <div class="sec1-info-btns-div">
-            <img
-              class="arrow-left"
-              src="./assets/arrow-left.svg"
-              alt="arrow-left"
-            />
-            <img
-              class="arrow-right"
-              src="./assets/shape.svg"
-              alt="arrow-right"
-            />
+          <div class="arrows-div">
+            <a class="aleft" href="#">←</a>
+            <a class="aright" href="#">→</a>
           </div>
         </div>
         <div class="sec1-cards-div">
@@ -242,7 +237,9 @@
           <ul>
             <h4>Meet Us</h4>
             <li><a href="#">+00 92 123 3</a></li>
-            <li><a href="#">info@trav <br>log.com</a></li>
+            <li>
+              <a href="#">info@trav <br />log.com</a>
+            </li>
             <li><a href="#">205. R Street, New York</a></li>
             <li><a href="#">BD23200</a></li>
           </ul>
