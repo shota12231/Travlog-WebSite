@@ -522,7 +522,7 @@ h1 {
 /* footer styles */
 footer {
   width: 80%;
-  margin: 0 auto;
+  margin: 100px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
