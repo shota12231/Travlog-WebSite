@@ -27,6 +27,7 @@ nav {
   position: sticky;
   top: 0;
   background-color: white;
+  z-index: 1;
 }
 .nav-items {
   width: 428px;
@@ -178,8 +179,10 @@ h1 {
   display: flex;
   height: 56px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   transition: 0.2s all ease;
+  gap: 15px;
+  padding: 8px;
 }
 .watch-demo:hover {
   background-color: #5e50c681;
@@ -675,7 +678,7 @@ footer li {
     margin-right: -35px;
     margin-left: 30px;
   }
-  .nav-logo{
+  .nav-logo {
     margin-left: -35px;
   }
 }
@@ -690,8 +693,23 @@ footer li {
   }
   .ft-right-div {
     flex-direction: column;
+    padding: 10px;
+    margin-left: -109px;
+  }
+  .ft-left-div {
+    gap: 15px;
   }
   .ft-list h4:hover {
     text-decoration: underline;
+  }
+  .card {
+    opacity: 1;
+  }
+  .cont-div {
+    padding: 0;
+    opacity: 1;
+  }
+  footer {
+    margin-bottom: 10px;
   }
 }
